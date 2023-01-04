@@ -8,9 +8,9 @@ Use with [cargo-generate](https://github.com/cargo-generate/cargo-generate).
 
 ### Usage
 ```sh
-cargo generate aoc \
+cargo generate \
         --git "https://github.com/pratyush3757/aoc-template" \
-        --branch main \
+        --branch master \
         --init
 # or
 cargo generate --init --path <local folder>
