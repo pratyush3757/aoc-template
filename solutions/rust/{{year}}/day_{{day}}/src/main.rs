@@ -23,11 +23,13 @@ mod tests {
     }
 
     #[test]
+    #[ignore]
     fn aoc_{{year}}_{{day}}_part_one() {
         assert_eq!(aoc_{{year}}_{{day}}::PartOne::solve(&reader()).unwrap(), 0);
     }
 
     #[test]
+    #[ignore]
     fn aoc_{{year}}_{{day}}_part_two() {
         assert_eq!(aoc_{{year}}_{{day}}::PartTwo::solve(&reader()).unwrap(), 0);
     }
