@@ -14,6 +14,7 @@ aoclib = { path = "../../lib" }
 
 [dev-dependencies]
 criterion = "*"
+test-case.workspace = true
 
 [[bench]]
 name = "bench"

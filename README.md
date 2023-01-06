@@ -17,8 +17,10 @@ cargo generate --init --path <local folder>
 ```
 
 ### Note:
-Please copy the `./solutions/rust/lib` folder on first run.  
+Please copy the `./solutions/rust/lib` folder and `./Cargo.toml` on the first run.  
 It has been ignored in the template, as cargo-generate cannot overwrite files and will throw errors on subsequent runs.
+
+The `./Cargo.toml` file will act as the workspace toml file. Please edit the entries like `authors` accordingly.
 
 ### TODO:
 - [ ] Add python template code
