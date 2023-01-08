@@ -1,5 +1,6 @@
 [template]
 ignore = [
+    "Cargo.toml",
     "solutions/rust/lib",
     "README.md",
     "LICENSE",
