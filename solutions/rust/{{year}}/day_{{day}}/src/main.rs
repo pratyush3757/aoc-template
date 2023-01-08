@@ -1,8 +1,8 @@
-use aoclib::Solvable;
 use aoc_{{year}}_{{day}}::{PartOne, PartTwo};
+use aoclib::Solvable;
 
 pub fn main() -> aoclib::Result<()> {
-    let input = aoclib::reader({{year}}, {{day}}, "input.txt")?;
+    let input = aoclib::reader("{{year}}", "{{day}}", "input.txt")?;
     let result_part_one = PartOne::solve(&input)?; // 0, ~0μs
     let result_part_two = PartTwo::solve(&input)?; // 0, ~0μs
 
@@ -15,11 +15,10 @@ pub fn main() -> aoclib::Result<()> {
 
 #[cfg(test)]
 mod tests {
-    use aoc_{{year}}_{{day}};
     use aoclib::Solvable;
 
     fn reader() -> String {
-        aoclib::reader({{year}}, {{day}}, "input.txt").unwrap()
+        aoclib::reader("{{year}}", "{{day}}", "input.txt").unwrap()
     }
 
     #[test]
