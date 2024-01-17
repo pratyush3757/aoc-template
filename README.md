@@ -1,5 +1,5 @@
 ## Advent Of Code Template for Rust and Python
-[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)   
+[![Project Status: Inactive – The project has reached a stable, usable state but is no longer being actively developed; support/maintenance will be provided as time allows.](https://www.repostatus.org/badges/latest/inactive.svg)](https://www.repostatus.org/#inactive)
 
 My template for [Advent of Code](https://adventofcode.com) challenges scaffolding in Rust and Python.  
 Thanks to [AlexAegis's](https://github.com/AlexAegis/advent-of-code) and [Remlse's](https://github.com/remlse/cargo-templates) templates.  
